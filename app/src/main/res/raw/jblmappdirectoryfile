@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Directory Start  -->
+<Directory>
+    <!-- Header = Listing on Main Directory Page  -->
+    <Header>Units
+        <!-- Sub-Group  -->
+        <Category>Army
+            <!-- Point of Contact  -->
+            <Contact>
+                <Name>John Doe</Name>
+                <Phone>360-867-5309</Phone>
+                <Phone>253-123-4567</Phone>
+                <URL>www.whitehouse.gov</URL>
+                <Email>name@address.com</Email>
+                <Description>Lorem ipsum, bacano santorum entradadum baclorious bacoliscious</Description>
+            </Contact>
+        </Category>
+        <!-- Sub-Group  -->
+        <Category>Airforce
+            <!-- Point of Contact  -->
+            <Contact>
+                <Name>Jane Doe</Name>
+                <Phone>360-867-5309</Phone>
+                <Phone>253-123-4567</Phone>
+                <URL>www.whitehouse.gov</URL>
+                <Email>name@address.com</Email>
+                <Description>Lorem ipsum, bacano santorum entradadum baclorious bacoliscious</Description>
+            </Contact>
+        </Category>
+        <!-- Sub-Group  -->
+        <Category>Navy/Marines
+            <!-- Point of Contact  -->
+            <Contact>
+                <Name>John Smith</Name>
+                <Phone>360-867-5309</Phone>
+                <Phone>253-123-4567</Phone>
+                <URL>www.whitehouse.gov</URL>
+                <Email>name@address.com</Email>
+                <Description>Lorem ipsum, bacano santorum entradadum baclorious bacoliscious</Description>
+            </Contact>
+        </Category>
+    </Header>
+    <!-- Header = Listing on Main Directory Page  -->
+    <Header>Services
+        <!-- Sub-Group  -->
+        <Category>Army
+            <!-- Point of Contact  -->
+            <Contact>
+                <Name>Jane Smith</Name>
+                <Phone>360-867-5309</Phone>
+                <Phone>253-123-4567</Phone>
+                <URL>www.whitehouse.gov</URL>
+                <Email>name@address.com</Email>
+                <Description>Lorem ipsum, bacano santorum entradadum baclorious bacoliscious</Description>
+            </Contact>
+        </Category>
+        <!-- Sub-Group  -->
+        <Category>Airforce
+            <!-- Point of Contact  -->
+            <Contact>
+                <Name>John Q. Public</Name>
+                <Phone>360-867-5309</Phone>
+                <Phone>253-123-4567</Phone>
+                <URL>www.whitehouse.gov</URL>
+                <Email>name@address.com</Email>
+                <Description>Lorem ipsum, bacano santorum entradadum baclorious bacoliscious</Description>
+            </Contact>
+        </Category>
+        <!-- Sub-Group  -->
+        <Category>Navy/Marines
+            <!-- Point of Contact  -->
+            <Contact>
+                <Name>Jane Q. Public</Name>
+                <Phone>360-867-5309</Phone>
+                <Phone>253-123-4567</Phone>
+                <URL>www.whitehouse.gov</URL>
+                <Email>name@address.com</Email>
+                <Description>Lorem ipsum, bacano santorum entradadum baclorious bacoliscious</Description>
+            </Contact>
+        </Category>
+    </Header>
+    <!-- Header = Listing on Main Directory Page  -->
+    <Header>EMERGENCY
+
+
+        <Category>Services
+            <!-- Point of Contact  -->
+            <Contact>
+                <Name>Tech Support</Name>
+                <Phone>360-867-5309</Phone>
+                <Phone>253-123-4567</Phone>
+                <URL>www.whitehouse.gov</URL>
+                <Email>name@address.com</Email>
+                <Description>Lorem ipsum, bacano santorum entradadum baclorious bacoliscious</Description>
+            </Contact>
+            <!-- Point of Contact  -->
+            <Contact>
+                <Name>Plumbing</Name>
+                <Phone>360-867-5309</Phone>
+                <Phone>253-123-4567</Phone>
+                <URL>www.whitehouse.gov</URL>
+                <Email>name@address.com</Email>
+                <Description>Lorem ipsum, bacano santorum entradadum baclorious bacoliscious</Description>
+            </Contact>
+            <!-- Point of Contact  -->
+            <Contact>
+                <Name>Fire</Name>
+                <Phone>360-867-5309</Phone>
+                <Phone>253-123-4567</Phone>
+                <URL>www.whitehouse.gov</URL>
+                <Email>name@address.com</Email>
+                <Description>Lorem ipsum, bacano santorum entradadum baclorious bacoliscious</Description>
+            </Contact>
+            <!-- Point of Contact  -->
+                <Contact>
+                    <Name>TEST</Name>
+                    <Phone>360-867-5309</Phone>
+                    <Phone>253-123-4567</Phone>
+                    <URL>www.whitehouse.gov</URL>
+                    <Email>name@address.com</Email>
+                    <Description>Lorem ipsum, bacano santorum entradadum baclorious bacoliscious</Description>
+                </Contact>
+        </Category>
+    </Header>
+</Directory>

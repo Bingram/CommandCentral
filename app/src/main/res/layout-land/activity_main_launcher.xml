@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainLauncher"
+    android:background="@drawable/rainier_blur">
+
+
+    <ImageButton
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/newsButton"
+        android:background="@drawable/paper"
+        android:onClick="openNews"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageButton
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/imageButton8"
+        android:background="@drawable/info"
+        android:onClick="openInfo"
+        android:layout_toEndOf="@+id/newsButton"
+        android:layout_alignTop="@+id/newsButton"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageButton
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/mapButton"
+        android:background="@drawable/map"
+        android:onClick="openMap"
+        android:layout_toEndOf="@+id/calButton"
+        android:layout_below="@+id/directoryButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="60dp"
+        android:layout_alignEnd="@+id/directoryButton" />
+
+    <ImageButton
+        android:layout_width="97dp"
+        android:layout_height="72dp"
+        android:id="@+id/directoryButton"
+        android:background="@drawable/phone"
+        android:onClick="openDirectory"
+        android:layout_toStartOf="@+id/newsButton"
+        android:layout_above="@+id/calButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/newsButton" />
+
+    <ImageButton
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/calButton"
+        android:background="@drawable/calendar"
+        android:onClick="openCalendar"
+        android:layout_below="@+id/newsButton"
+        android:layout_toEndOf="@+id/directoryButton"
+        android:layout_marginTop="60dp"
+        android:layout_alignEnd="@+id/newsButton"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageButton
+        android:layout_width="66dp"
+        android:layout_height="96dp"
+        android:id="@+id/alertButton"
+        android:background="@drawable/alert"
+        android:onClick="openAlertSignup"
+        android:layout_alignTop="@+id/calButton"
+        android:layout_toRightOf="@+id/calButton"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Directory"
+        android:id="@+id/contactName"
+        android:layout_below="@+id/newsButton"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_alignEnd="@+id/directoryButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="News"
+        android:id="@+id/contactDesc"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_toEndOf="@+id/contactName"
+        android:layout_toStartOf="@+id/imageButton8"
+        android:layout_below="@+id/newsButton"
+        android:layout_alignStart="@+id/newsButton"
+        android:layout_marginLeft="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Info."
+        android:id="@+id/textView3"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_alignBottom="@+id/contactDesc"
+        android:layout_alignLeft="@id/imageButton8"
+
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" Calendar"
+        android:id="@+id/textView4"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_toEndOf="@+id/contactName"
+        android:layout_toStartOf="@+id/alertButton"
+        android:layout_below="@+id/calButton"
+        android:layout_alignStart="@+id/calButton" />
+
+</RelativeLayout>
